@@ -22,3 +22,16 @@ App load time: 554ms
 [5269:0612/203735:INFO:CONSOLE(22)] "GitControl: activate", source: /home/gomes/.atom/packages/git-control/lib/git-control.coffee (22)
 [5269:0612/203735:INFO:CONSOLE(38)] "GitControl: toggle", source: /home/gomes/.atom/packages/git-control/lib/git-control.coffee (38)
 [5269:0612/203735:INFO:CONSOLE(93)] "GitControlView: initialize", source: /home/gomes/.atom/packages/git-control/lib/git-control-view.coffee (93)
+[5291:0612/203817:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[5291:0612/204108:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[5269:0612/204239:INFO:CONSOLE(38)] "GitControl: toggle", source: /home/gomes/.atom/packages/git-control/lib/git-control.coffee (38)
+[5269:0612/204239:INFO:CONSOLE(107)] "GitControlView: destroy", source: /home/gomes/.atom/packages/git-control/lib/git-control-view.coffee (107)
+[5269:0612/204240:INFO:CONSOLE(38)] "GitControl: toggle", source: /home/gomes/.atom/packages/git-control/lib/git-control.coffee (38)
+[5269:0612/204240:INFO:CONSOLE(93)] "GitControlView: initialize", source: /home/gomes/.atom/packages/git-control/lib/git-control-view.coffee (93)
+[5291:0612/204344:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[5291:0612/204403:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[5291:0612/204410:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[5269:0612/204423:INFO:CONSOLE(38)] "GitControl: toggle", source: /home/gomes/.atom/packages/git-control/lib/git-control.coffee (38)
+[5269:0612/204423:INFO:CONSOLE(107)] "GitControlView: destroy", source: /home/gomes/.atom/packages/git-control/lib/git-control-view.coffee (107)
+[5269:0612/204423:INFO:CONSOLE(38)] "GitControl: toggle", source: /home/gomes/.atom/packages/git-control/lib/git-control.coffee (38)
+[5269:0612/204423:INFO:CONSOLE(93)] "GitControlView: initialize", source: /home/gomes/.atom/packages/git-control/lib/git-control-view.coffee (93)
