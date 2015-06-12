@@ -1,0 +1,60 @@
+[
+    {
+        "type": "button",
+        "icon": "ion ion-ios-copy",
+        "tooltip": "Open treeview",
+        "callback": "tree-view:toggle"
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "ion ion-arrow-swap",
+        "tooltip": "Sow file on teeview",
+        "callback": "tree-view:reveal-active-file"
+    },
+    {
+        "type": "button",
+        "icon": "ion ion-ios-arrow-back",
+        "tooltip": "Back navigation",
+        "callback": "last-cursor-position:previous"
+    },
+    {
+        "type": "button",
+        "icon": "ion ion-ios-arrow-forward",
+        "tooltip": "Forward navigation",
+        "callback": "last-cursor-position:next"
+    },
+    {
+        "type": "button",
+        "icon": "ison ion-ios-lightbulb",
+        "tooltip": "Text highlight",
+        "callback": "quick-highlight:toggle"
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "circuit-board",
+        "callback": "git-diff:toggle-diff-list",
+        "style": {
+            "color": "#FA4F28"
+        }
+    },
+    {
+        "type": "button",
+        "icon": "ion ion-merge",
+        "callback": "git-control:toggle"
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "markdown",
+        "callback": "markdown-preview:toggle",
+        "disable": "!markdown"
+    }
+]
