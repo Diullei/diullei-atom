@@ -27,6 +27,3 @@
 7. Get the latest `diullei-atom` content.
 8. Execute the following command to install all arom packages: `apm install --packages-file package-list.txt`.
 
-## Consideration
-
- > Based on https://github.com/spf13/spf13-vim
