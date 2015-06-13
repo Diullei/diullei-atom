@@ -1,0 +1,29 @@
+"*":
+  editor:
+    invisibles:
+      {}
+    showIndentGuide: true
+    fontSize: 12
+    tabLength: 4
+  core:
+    themes: [
+      "one-dark-ui"
+      "sublime-default-syntax"
+    ]
+  "exception-reporting":
+    userId: "4153ecc7-fa9d-c281-bfc1-655c2153c1b6"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "3d75d1113bda7dd1296b17a31b555a0f3cb7c8fc"
+  linter:
+    {}
+  "run-command":
+    {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "tool-bar":
+    position: "Left"
+    iconSize: "16px"
+  "tree-view-filter":
+    liveUpdate: true
