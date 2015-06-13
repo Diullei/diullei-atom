@@ -28,12 +28,15 @@
     },
     {
         "type": "button",
+<<<<<<< HEAD
         "icon": "ison ion-funnel",
         "tooltip": "Filter",
         "callback": "tree-view-filter:activate"
     },
     {
         "type": "button",
+=======
+>>>>>>> 3cba92fc4cf32d3182f1a8292a0f2fbcf39fabbc
         "icon": "ison ion-ios-lightbulb",
         "tooltip": "Text highlight",
         "callback": "quick-highlight:toggle"
@@ -44,7 +47,14 @@
     {
         "type": "button",
         "icon": "circuit-board",
+<<<<<<< HEAD
         "callback": "git-diff:toggle-diff-list"
+=======
+        "callback": "git-diff:toggle-diff-list",
+        "style": {
+            "color": "#FA4F28"
+        }
+>>>>>>> 3cba92fc4cf32d3182f1a8292a0f2fbcf39fabbc
     },
     {
         "type": "button",

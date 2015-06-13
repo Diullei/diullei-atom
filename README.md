@@ -1,4 +1,5 @@
 # Diullei's Atom Distribution
+<<<<<<< HEAD
 
 ```
 .    _ _       _ _      _             _
@@ -29,3 +30,5 @@
 ## Consideration
 
  > Based on https://github.com/spf13/spf13-vim
+=======
+>>>>>>> 3cba92fc4cf32d3182f1a8292a0f2fbcf39fabbc
