@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# curl https://raw.githubusercontent.com/Diullei/diullei-atom/master/diullei-aton-bootstrap.sh -L > diullei-aton-bootstrap.sh && sh diullei-aton-bootstrap.sh
+# curl https://raw.githubusercontent.com/Diullei/diullei-atom/master/diullei-atom-bootstrap.sh -L > diullei-atom-bootstrap.sh && sh diullei-atom-bootstrap.sh
 
 ############################  SETUP PARAMETERS
 app_name='diullei-atom'
