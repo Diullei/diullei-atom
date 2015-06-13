@@ -1,4 +1,3 @@
-.bin
 atom-tsd@0.9.0
 atom-typescript@4.5.13
 atom-vscode-task@0.0.0
