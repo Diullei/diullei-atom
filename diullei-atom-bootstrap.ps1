@@ -24,9 +24,12 @@ function error
 
 function program_exists
 {
-	if (!(Get-Command $args[0] -ErrorAction SilentlyContinue))
+	$a1 = $args[0]
+	$a2 = $args[1]
+
+	if (!(Get-Command $a1 -ErrorAction SilentlyContinue))
 	{ 
-	    error "you must have $args installed to continue."
+	    error "you must have $a2 installed to continue."
 	} 
 }
 
@@ -63,9 +66,8 @@ function install_packages
 }
 
 ############################# MAIN()
-program_exists "atom.cmd"
-program_exists "apm.cmd"
-program_exists "git.exe"
+program_exists "atom.cmd" "Atom Editor"
+program_exists "git.exe" "Git"
 
 do_backup $app_path
 
