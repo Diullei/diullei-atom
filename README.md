@@ -27,6 +27,22 @@ curl https://raw.githubusercontent.com/Diullei/diullei-atom/master/diullei-atom-
 ```
 > This will install `diullei-atom` and backup your existing atom configuration
 
+### Installing on Windows
+
+You will need to have a git tool installed. The best way is install github for windows https://windows.github.com/. After install create a file named `install.ps1` and put the following code:
+
+```powershell
+$down = New-Object System.Net.WebClient;
+$down.DownloadFile("https://raw.githubusercontent.com/Diullei/diullei-atom/master/diullei-atom-bootstrap.ps1",".\diullei-atom-bootstrap.ps1");
+& ".\diullei-atom-bootstrap.ps1"
+```
+
+And then run this script:
+
+```powershell
+powershell.exe -ExecutionPolicy Bypass .\install.ps1
+```
+
 ### Manual installation
 
 1. Install Git if you haven't done it yet.
