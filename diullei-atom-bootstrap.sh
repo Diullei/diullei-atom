@@ -119,7 +119,6 @@ create_symlinks() {
 ############################ MAIN()
 variable_set "$HOME"
 program_exists  "atom"
-program_exists  "apm"
 program_exists  "git"
 
 do_backup       "$HOME/.atom"
