@@ -42,7 +42,7 @@
         "type": "button",
         "icon": "ison ion-stats-bars",
         "tooltip": "Editor Stats",
-        "callback": "editor-status:toggle"
+        "callback": "editor-stats:toggle"
     },
     {
         "type": "spacer"
