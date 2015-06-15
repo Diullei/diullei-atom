@@ -23,7 +23,7 @@
 The easiest way to install `diullei-atom` is to use an automatic script installer by simply copying and pasting the following line into a terminal.
 
 ```shell
-sudo curl https://raw.githubusercontent.com/Diullei/diullei-atom/master/diullei-atom-bootstrap.sh -L > diullei-atom-bootstrap.sh && sudo sh diullei-atom-bootstrap.sh
+curl https://raw.githubusercontent.com/Diullei/diullei-atom/master/diullei-atom-bootstrap.sh -L > diullei-atom-bootstrap.sh && sh diullei-atom-bootstrap.sh
 ```
 > This will install `diullei-atom` and backup your existing atom configuration
 
