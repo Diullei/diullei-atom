@@ -98,7 +98,9 @@ install_packages() {
 
     msg "Trying to install atom packages"
 
-    apm install --packages-file "$repo_path"/package-list.txt
+    node "$repo_path"/gen-package-list.js $repo_path
+
+    apm install --packages-file "$repo_path"/tmp-packages-list.txt
 
     success "Successfully. All packages has been installed"
 

@@ -6,7 +6,7 @@ file-icons@1.5.7
 flex-tool-bar@0.4.2
 git-control@0.3.0
 highlight-selected@0.9.3
-language-clojure@0.15.0
+language-powershell@2.0.1
 language-rust@0.4.3
 last-cursor-position@0.9.0
 linter@0.12.7
@@ -18,4 +18,3 @@ sublime-default-syntax@0.2.2
 tab-switcher@0.4.0
 tool-bar@0.1.7
 tree-view-filter@0.3.6
-

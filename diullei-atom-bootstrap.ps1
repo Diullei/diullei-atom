@@ -1,17 +1,17 @@
 ########### SETUP
 $app_name = "diullei-atom"
-$app_path = "$HOME\.atom" 
-$repo_uri = "https://github.com/diullei/diullei-atom.git" 
+$app_path = "$HOME\.atom"
+$repo_uri = "https://github.com/diullei/diullei-atom.git"
 $repo_branch = "master"
 
 ########### SETUP FUNCTIONS
 
-function msg 
+function msg
 {
     Write-Host $args
 }
 
-function success 
+function success
 {
 	msg "[Ok] $args"
 }
@@ -28,9 +28,9 @@ function program_exists
 	$a2 = $args[1]
 
 	if (!(Get-Command $a1 -ErrorAction SilentlyContinue))
-	{ 
+	{
 	    error "you must have $a2 installed to continue."
-	} 
+	}
 }
 
 function do_backup
@@ -44,7 +44,7 @@ function do_backup
 function sync_repo
 {
 	msg "Trying to update $app_path"
-	
+
 	if(Test-Path -Path $app_path)
 	{
 		cd $app_path
@@ -61,7 +61,11 @@ function sync_repo
 function install_packages
 {
 	msg "Trying to install atom packages"
-	apm install --packages-file "$app_path\package-list.txt"
+
+    node "$app_path\gen-package-list.js" $app_path
+
+	apm install --packages-file "$app_path\tmp-packages-list.txt"
+
 	success "Successfully. All packages has been installed"
 }
 
@@ -76,5 +80,6 @@ sync_repo
 install_packages
 
 $today = Get-Date -format yyyy
-msg "\nThanks for installing $app_name."
+msg ""
+msg "Thanks for installing $app_name."
 msg "© $today https://github.com/diullei/diullei-atom"
