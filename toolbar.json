@@ -39,6 +39,12 @@
         "callback": "quick-highlight:toggle"
     },
     {
+        "type": "button",
+        "icon": "ison ion-stats-bars",
+        "tooltip": "Editor Stats",
+        "callback": "editor-status:toggle"
+    },
+    {
         "type": "spacer"
     },
     {

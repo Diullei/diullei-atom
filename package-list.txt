@@ -1,20 +1,108 @@
-atom-tsd@0.9.0
-atom-typescript@4.5.13
-auto-indent@0.5.0
-emmet@2.3.10
-file-icons@1.5.7
-flex-tool-bar@0.4.2
-git-control@0.3.0
-highlight-selected@0.9.3
-language-powershell@2.0.1
-language-rust@0.4.3
-last-cursor-position@0.9.0
-linter@0.12.7
-linter-rust@0.1.0
-minimap@4.10.0
-quick-highlight@0.1.6
-run-command@0.2.0
-sublime-default-syntax@0.2.2
-tab-switcher@0.4.0
-tool-bar@0.1.7
-tree-view-filter@0.3.6
+####################################################
+# editor
+####################################################
+file-icons
+auto-indent
+highlight-selected
+quick-highlight
+last-cursor-position
+minimap
+linter
+tab-switcher
+tree-view-filter
+autocomplete-plus
+
+####################################################
+# theme
+####################################################
+sublime-default-syntax
+
+####################################################
+# some userfull language highlight support
+####################################################
+# A
+language-asp
+language-ada
+language-arm
+language-actionscript
+
+# B
+language-batch
+
+# C
+language-c
+language-csharp
+language-cmake
+language-coffee-script
+language-css
+language-clojure
+
+# D
+language-d
+
+# F
+language-fsharp
+language-fortran
+
+# H
+language-haskell
+language-html
+
+# I
+language-ini
+
+# J
+language-java
+language-javascript
+language-javascript-jsx
+
+# L
+language-lisp
+language-llvm
+
+# M
+language-make
+language-matlab
+
+# O
+language-ocaml
+language-objective-c
+
+# P
+language-powershell
+language-pascal
+language-perl
+language-php
+language-property-list
+language-python
+
+# R
+language-r
+language-ruby
+
+# S
+language-scala
+language-shellscript
+language-scheme
+language-smalltalk
+language-sql
+
+# T
+language-typescript
+
+# X
+language-xml
+language-x86
+
+# Y
+language-yaml
+
+####################################################
+# userfull tools
+####################################################
+tool-bar
+flex-tool-bar
+git-control
+run-command
+editor-stats
+merge-conflicts

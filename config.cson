@@ -21,7 +21,7 @@
   "run-command":
     {}
   "tree-view":
-    hideVcsIgnoredFiles: true
+    {}
   "tool-bar":
     position: "Left"
     iconSize: "16px"
