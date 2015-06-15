@@ -59,4 +59,4 @@ listToInstall.forEach(function(package){
     listToInstallFile += package + '\n';
 });
 
-fs.writeFileSync('tmp-packages-list.txt', listToInstallFile);
+fs.writeFileSync(path.join(app_path, 'tmp-packages-list.txt'), listToInstallFile);
