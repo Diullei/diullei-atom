@@ -30,12 +30,29 @@ if (fs.existsSync(path.join(app_path, 'package-custom-list.txt'))) {
     customPackages = fs.readFileSync(path.join(app_path, 'package-custom-list.txt')).toString();
 }
 
+function packageInstalled(name) {
+    var found = false;
+    if (fs.existsSync(path.join(app_path, 'packages'))) {
+        var dirlist = fs.readdirSync(path.join(app_path, 'packages'));
+        for (var i = 0; i < dirlist.length; i++) {
+            if (fs.existsSync(path.join(app_path, 'packages', dirlist[i]))) {
+                if (dirlist[i] == name) {
+                    found = true;
+                }
+            }
+        }
+    }
+    return found;
+}
+
 var listToInstall = [];
 
 var tmp = defaultPackages.split(/(\r\n|\n)/mg);
 tmp.forEach(function(package){
     if (package.trim() !== '' && !(package.trim().indexOf('#') === 0)) {
-        listToInstall.push(package);
+        if (!packageInstalled(package)) {
+            listToInstall.push(package);
+        }
     }
 });
 
@@ -49,7 +66,9 @@ tmp.forEach(function(package){
 tmp = customPackages.split(/(\r\n|\n)/mg);
 tmp.forEach(function(package){
     if (package.trim() !== '' && !(package.trim().indexOf('#') === 0)) {
-        listToInstall.push(package);
+        if (!packageInstalled(package)) {
+            listToInstall.push(package);
+        }
     }
 });
 

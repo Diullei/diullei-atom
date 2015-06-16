@@ -27,3 +27,5 @@
     iconSize: "16px"
   "tree-view-filter":
     liveUpdate: true
+  react:
+    {}

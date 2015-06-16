@@ -1,7 +1,7 @@
 [
     {
         "type": "button",
-        "icon": "ion ion-ios-copy",
+        "icon": "repo-pull",
         "tooltip": "Open treeview",
         "callback": "tree-view:toggle"
     },
@@ -49,13 +49,30 @@
     },
     {
         "type": "button",
-        "icon": "circuit-board",
+        "icon": "ion ion-network",
+        "tooltip": "Git diff",
         "callback": "git-diff:toggle-diff-list"
     },
     {
         "type": "button",
         "icon": "ion ion-merge",
+        "tooltip": "Git control",
         "callback": "git-control:toggle"
+    },
+    {
+        "type": "button",
+        "icon": "git-compare",
+        "tooltip": "Git - Merge conflicts",
+        "callback": "merge-conflicts:detect"
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "terminal",
+        "tooltip": "Run CLI Command",
+        "callback": "run-command:run"
     },
     {
         "type": "spacer"
@@ -64,6 +81,6 @@
         "type": "button",
         "icon": "markdown",
         "callback": "markdown-preview:toggle",
-        "disable": "!markdown"
+        "hide": "!markdown"
     }
 ]

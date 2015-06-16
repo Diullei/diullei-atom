@@ -12,6 +12,7 @@ autoprefixer
 color-picker
 atom-beautify
 atom-bootstrap3
+atom-color-highlight
 
 ####################################################
 # JAVASCRIPT
