@@ -59,6 +59,7 @@ language-javascript-jsx
 # L
 language-lisp
 language-llvm
+language-livescript
 
 # M
 language-make
