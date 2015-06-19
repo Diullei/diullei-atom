@@ -29,4 +29,5 @@ uglify
 jshint
 jslint
 linter-lsc
+atom-html-preview
 
