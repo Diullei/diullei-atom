@@ -5,6 +5,7 @@
     showIndentGuide: true
     fontSize: 12
     tabLength: 4
+    autoIndent: false
   core:
     themes: [
       "one-dark-ui"
