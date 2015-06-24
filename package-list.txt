@@ -108,4 +108,3 @@ git-control
 run-command
 editor-stats
 merge-conflicts
-text-manipulation
