@@ -11,7 +11,7 @@ linter
 tab-switcher
 tree-view-filter
 autocomplete-plus
-comment
+block-comment
 
 ####################################################
 # theme
@@ -108,4 +108,3 @@ git-control
 run-command
 editor-stats
 merge-conflicts
-text-manipulation
