@@ -11,6 +11,7 @@ linter
 tab-switcher
 tree-view-filter
 autocomplete-plus
+block-comment
 
 ####################################################
 # theme
