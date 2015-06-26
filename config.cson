@@ -4,6 +4,7 @@
     showIndentGuide: true
     fontSize: 12
     tabLength: 4
+    autoIndent: false
   core:
     themes: [
       "one-dark-ui"
@@ -24,5 +25,9 @@
   "tree-view-filter":
     liveUpdate: true
   react: {}
-  "atom-beautify":
-    _analyticsUserId: "011edb6e-ad10-40a3-a237-7f281a156a4d"
+  "atom-typescript": {}
+".source.ts":
+  editor:
+    autoIndent: true
+    softWrap: false
+    softWrapAtPreferredLineLength: false

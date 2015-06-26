@@ -34,13 +34,19 @@
     },
     {
         "type": "button",
-        "icon": "ison ion-ios-lightbulb",
+        "icon": "ison ion-android-list",
+        "tooltip": "Auto Indent",
+        "callback": "auto-indent:apply"
+    },
+    {
+        "type": "button",
+        "icon": "ison ion-wand",
         "tooltip": "Text highlight",
         "callback": "quick-highlight:toggle"
     },
     {
         "type": "button",
-        "icon": "ison ion-stats-bars",
+        "icon": "graph",
         "tooltip": "Editor Stats",
         "callback": "editor-stats:toggle"
     },
@@ -82,5 +88,11 @@
         "icon": "markdown",
         "callback": "markdown-preview:toggle",
         "hide": "!markdown"
+    },
+    {
+        "type": "button",
+        "icon": "file-code",
+        "callback": "atom-html-preview:toggle",
+        "hide": "!html"
     }
 ]
