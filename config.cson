@@ -2,9 +2,9 @@
   editor:
     invisibles: {}
     showIndentGuide: true
-    fontSize: 12
     tabLength: 4
     autoIndent: false
+    fontSize: 12
   core:
     themes: [
       "one-dark-ui"
