@@ -18,7 +18,8 @@
     userId: "3d75d1113bda7dd1296b17a31b555a0f3cb7c8fc"
   linter: {}
   "run-command": {}
-  "tree-view": {}
+  "tree-view":
+    hideIgnoredNames: true
   "tool-bar":
     position: "Left"
     iconSize: "16px"
@@ -26,6 +27,9 @@
     liveUpdate: true
   react: {}
   "atom-typescript": {}
+  racer:
+    rustSrcPath: "/home/diullei/dev/rust/rust/src/"
+    racerBinPath: "/home/diullei/dev/rust/racer/target/release/racer"
 ".source.ts":
   editor:
     autoIndent: true

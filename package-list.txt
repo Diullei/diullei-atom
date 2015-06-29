@@ -81,6 +81,7 @@ language-python
 # R
 language-r
 language-ruby
+language-rust
 
 # S
 language-scala
@@ -108,3 +109,4 @@ git-control
 run-command
 editor-stats
 merge-conflicts
+web-browser

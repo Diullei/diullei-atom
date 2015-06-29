@@ -12,7 +12,6 @@ autoprefixer
 color-picker
 atom-beautify
 atom-bootstrap3
-atom-color-highlight
 
 ####################################################
 # JAVASCRIPT
@@ -31,6 +30,14 @@ omnisharp-atom
 atom-fsharp
 
 ####################################################
+# RUST
+####################################################
+linter-rust
+rust-api-docs-helper
+racer
+cargo-test-runner
+
+####################################################
 # TOOLS
 ####################################################
 gulp-control
@@ -40,4 +47,3 @@ jshint
 jslint
 linter-lsc
 atom-html-preview
-
