@@ -110,3 +110,4 @@ run-command
 editor-stats
 merge-conflicts
 web-browser
+termrk
