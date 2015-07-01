@@ -26,6 +26,7 @@ language-asp
 language-ada
 language-arm
 language-actionscript
+language-antlr
 
 # B
 language-batch
@@ -111,3 +112,4 @@ editor-stats
 merge-conflicts
 web-browser
 termrk
+atom-build
