@@ -112,3 +112,4 @@ editor-stats
 merge-conflicts
 web-browser
 termrk
+atom-build
