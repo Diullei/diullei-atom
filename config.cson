@@ -16,7 +16,8 @@
     showOnStartup: false
   metrics:
     userId: "3d75d1113bda7dd1296b17a31b555a0f3cb7c8fc"
-  linter: {}
+  linter:
+    showErrorPanel: false
   "run-command": {}
   "tree-view":
     hideIgnoredNames: true
@@ -30,6 +31,11 @@
   racer:
     rustSrcPath: "/home/diullei/dev/rust/rust/src/"
     racerBinPath: "/home/diullei/dev/rust/racer/target/release/racer"
+  "linter-clojure":
+    clojureExecutablePath: "/home/diullei/.m2/repository/org/clojure/clojure/1.6.0/clojure-1.6.0.jar"
+    javaExecutablePath: "/usr/lib/jvm/java-1.7.0-openjdk-amd64/bin"
+  "atom-beautify":
+    _analyticsUserId: "87e2ad02-0c15-40ab-b5e1-9c181c6f3b6a"
 ".source.ts":
   editor:
     autoIndent: true

@@ -77,8 +77,14 @@
     {
         "type": "button",
         "icon": "terminal",
-        "tooltip": "Run CLI Command",
-        "callback": "run-command:run"
+        "tooltip": "Open Terminal",
+        "callback": "termrk:toggle"
+    },
+    {
+        "type": "button",
+        "icon": "tools",
+        "tooltip": "Atom Build Toggle",
+        "callback": "build:toggle-panel"
     },
     {
         "type": "spacer"

@@ -36,7 +36,7 @@ function packageInstalled(name) {
         var dirlist = fs.readdirSync(path.join(app_path, 'packages'));
         for (var i = 0; i < dirlist.length; i++) {
             if (fs.existsSync(path.join(app_path, 'packages', dirlist[i]))) {
-                if (dirlist[i] == name) {
+                if (dirlist[i].toUpperCase() == name.toUpperCase()) {
                     found = true;
                 }
             }

@@ -28,5 +28,9 @@
   'ctrl-alt-/': 'block-comment:toggle'
 
 'atom-workspace':
+  # atom-tab-switcher
   'ctrl-shift-tab': 'tab-switcher:previous'
   'ctrl-tab': 'tab-switcher:next'
+  # atom-build
+  'ctrl-shift-b': 'build:trigger'
+  'ctrl-shift-alt-b': 'build:select-active-target'
