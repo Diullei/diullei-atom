@@ -26,6 +26,7 @@ language-asp
 language-ada
 language-arm
 language-actionscript
+language-antlr
 
 # B
 language-batch
