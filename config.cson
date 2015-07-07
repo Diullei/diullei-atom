@@ -10,6 +10,9 @@
       "one-dark-ui"
       "sublime-default-syntax"
     ]
+    disabledPackages: [
+      "omnisharp-atom"
+    ]
   "exception-reporting":
     userId: "4153ecc7-fa9d-c281-bfc1-655c2153c1b6"
   welcome:

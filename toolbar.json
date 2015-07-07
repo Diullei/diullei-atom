@@ -76,15 +76,30 @@
     },
     {
         "type": "button",
-        "icon": "terminal",
-        "tooltip": "Open Terminal",
-        "callback": "termrk:toggle"
-    },
-    {
-        "type": "button",
         "icon": "tools",
         "tooltip": "Atom Build Toggle",
         "callback": "build:toggle-panel"
+    },
+    {
+        "type": "button",
+        "icon": "playback-play",
+        "tooltip": "Run",
+        "callback": "build:trigger"
+    },
+    {
+        "type": "button",
+        "icon": "list-unordered",
+        "tooltip": "Available Tasks",
+        "callback": "build:select-active-target"
+    },
+    {
+        "type": "spacer"
+    },
+    {
+        "type": "button",
+        "icon": "terminal",
+        "tooltip": "Open Terminal",
+        "callback": "termrk:toggle"
     },
     {
         "type": "spacer"
