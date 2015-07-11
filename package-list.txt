@@ -110,6 +110,6 @@ git-control
 run-command
 editor-stats
 merge-conflicts
-web-browser
+browser-plus
 termrk
 atom-build
