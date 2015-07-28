@@ -107,9 +107,8 @@ language-yaml
 tool-bar
 flex-tool-bar
 git-control
-run-command
 editor-stats
 merge-conflicts
 browser-plus
 termrk
-atom-build
+build
