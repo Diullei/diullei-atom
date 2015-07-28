@@ -2,7 +2,7 @@
 # editor
 ####################################################
 file-icons
-auto-indent
+# auto-indent
 highlight-selected
 quick-highlight
 last-cursor-position
