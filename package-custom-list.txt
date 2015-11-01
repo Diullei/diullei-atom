@@ -53,3 +53,5 @@ jshint
 jslint
 linter-lsc
 atom-html-preview
+
+hydrogen
