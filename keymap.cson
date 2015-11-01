@@ -34,3 +34,4 @@
   # atom-build
   'ctrl-shift-b': 'build:trigger'
   'ctrl-shift-alt-b': 'build:select-active-target'
+  'ctrl-shift-alt-enter': 'hydrogen:clear-results'
