@@ -2,22 +2,22 @@
 # TypeScript
 ####################################################
 # atom-tsd
-atom-typescript
+# atom-typescript
 
 ####################################################
 # HTML/CSS
 ####################################################
-emmet
+# emmet
 # autoprefixer
-color-picker
+# color-picker
 # atom-beautify
 # atom-bootstrap3
 
 ####################################################
 # JAVASCRIPT
 ####################################################
-jquery-snippets
-react
+# jquery-snippets
+# react
 
 ####################################################
 # .NET
@@ -40,18 +40,18 @@ react
 ####################################################
 # CLOJURE
 ####################################################
-linter-clojure
-clojure-eval-in-repl
+# linter-clojure
+# clojure-eval-in-repl
 
 ####################################################
 # TOOLS
 ####################################################
-gulp-control
-grunt-runner
-uglify
-jshint
-jslint
-linter-lsc
-atom-html-preview
+# gulp-control
+# grunt-runner
+# uglify
+# jshint
+# jslint
+# linter-lsc
+# atom-html-preview
 
-hydrogen
+# hydrogen
